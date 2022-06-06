@@ -1,0 +1,19 @@
+.produts{
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    /* border: 1px solid black; */
+    gap: 20px
+    ;
+    
+   
+}
+
+
+.produts div{
+    margin-top: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
